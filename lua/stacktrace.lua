@@ -6,7 +6,7 @@ end
 
 local state = {
   buf = nil,
-  java_src_path = "src/main/java",
+  java_src_path = "src/main/java/",
 }
 
 function M.parse_stacktrace()
